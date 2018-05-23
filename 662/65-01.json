@@ -1,0 +1,149 @@
+{
+    "acquisition_software": "Pychron18.2(Exp0.2,DVC0.1)",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "comment": "J:1 Single crystal plag",
+    "commit": "53671a448789cca044d6f981e1a82fb85eeb06a3",
+    "conditionals": null,
+    "data_reduction_software": "Pychron18.2(DVC0.1)",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 0
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 0
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-05-23T16:05:07",
+                "title": "iServer Hum.",
+                "value": 18.5
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-05-23T16:03:57",
+                "title": "Building",
+                "value": 98.2
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-05-23T15:57:55",
+                "title": "Lab",
+                "value": 88.6
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-05-23T16:08:35",
+                "title": "Jan Decabin",
+                "value": 4.1
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-05-23T15:28:49",
+                "title": "iServer Temp.",
+                "value": 73.7
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-05-23T15:30:57",
+                "title": "Coolant",
+                "value": 18.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-05-23T15:35:04",
+                "title": null,
+                "value": 34.6764346764347
+            }
+        ]
+    },
+    "experiment_queue_name": "Load1888",
+    "extraction": "jan_co2_video.py",
+    "identifier": "66265",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-294",
+    "irradiation_level": "J",
+    "irradiation_position": 1,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "jan",
+    "material": "",
+    "measurement": "jan_unknown280_45_no_center.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "",
+    "project": "",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Streck01098",
+    "sample": "JJ-17-8",
+    "source": {
+        "emission": 548.887,
+        "trap": 198.259
+    },
+    "spec_sha": "fd4783ee07e8893a5089b5877e9ca503a3c022b4",
+    "timestamp": "2018-05-23T16:10:04.455331",
+    "tripped_conditional": null,
+    "username": "",
+    "uuid": "144de54b-23fa-4be8-bb65-d2e36f296bd8",
+    "whiff_result": null
+}
